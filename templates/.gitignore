@@ -1,0 +1,28 @@
+# Ignore Python model files
+*.h5
+*.pkl
+
+# Ignore folders containing models
+model/
+saved_models/
+
+# Ignore temporary and log files
+*.log
+*.tmp
+
+# Ignore cache and compiled files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment files if present
+venv/
+env/
+
+# Ignore configuration and environment files
+*.env
+
+# Ignore system files and user-specific configurations
+.DS_Store
